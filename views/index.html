@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Socket IO Chat with Node!</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div class="imageContainer">
+	<img class="groupImage" src="css/images/hunters_mark.png" alt="Hunter's Mark">
+</div>
+
+	<input type="text" class="nickname" placeholder="What is your name, good Hunter?">
+
+	<ul id="messages"></ul>
+
+	<form>
+		<input class="message" type="text" id="m" autocomplete="off">
+		<button class="sendButton">&#5859;</button>
+  </form>
+
+  <script src="socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
